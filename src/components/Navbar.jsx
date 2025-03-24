@@ -34,10 +34,27 @@ const Navbar = () => {
 
         {/* Social Icons (Always Visible) */}
         <div className="flex items-center gap-4 text-xl">
-          <FaLinkedin />
-          <FaGithub />
-          <FaInstagram />
-          <FaFacebook />
+        <a href="https://www.linkedin.com/in/ruchi-shrivastava-49743366/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin />
+      </a>
+
+        <a href="https://github.com/ruchi-shrivastava" target="_blank" rel="noopener noreferrer">
+        <FaGithub />
+      </a>
+
+       <a href="https://www.instagram.com/ruchi_130315/" target="_blank" rel="noopener noreferrer">
+        <FaInstagram /> 
+      </a>
+
+     
+      <a href="https://www.facebook.com/ruchi.shrivastava15" target="_blank" rel="noopener noreferrer">
+      <FaFacebook />
+      </a>
+      
+         
+         
+          
+         
         </div>
       </div>
     </nav>

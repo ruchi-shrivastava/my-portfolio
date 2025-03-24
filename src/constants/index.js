@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2024 – jan 2025",
+    year: "Feb 2024 – Jan 2025",
     role: "Apprenticeship: Frontend Development",
     company: "Geekster",
     description: [
@@ -19,10 +19,11 @@ export const EXPERIENCES = [
       "Gained expertise in responsive design, state management, and API integrations.",
       "Worked on industry-level assignments to simulate real-world development environments."
     ],
-    technologies: ["Javascript", "React.js", "HTML", "CSS", "mongoDB"],
+    technologies: ["Javascript", "React.js", "HTML", "CSS"],
+    
   },
   {
-    year: "2021 - 2023",
+    year: "June 2022 - Jan 2023",
     role:"Freelance Web Developer & Career Break",
     company: "Self-Employed",
     description: [
@@ -34,7 +35,7 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "Javascript"],
   },
   {
-    year: "2019 - 2020",
+    year: "July 2019 - June 2020",
     role: "Frontend Developer",
     company: "Vyom Labs Pvt Ltd",
     description: [
@@ -44,10 +45,10 @@ export const EXPERIENCES = [
       "Collaborated with backend developers for API integration and real-time data processing.",
       "Debugged and optimized performance, improving user experience."
     ],
-    technologies: ["Reactjs", "HTML", "CSS", "mongoDB"],
+    technologies: ["Reactjs","JavaScript", "HTML", "CSS"],
   },
   {
-    year: "2018 - 2019",
+    year: "Nov 2018 - May 2019",
     role: "Software Engineer",
     company: "Icreon Communication Pvt Ltd",
    description: [
@@ -57,10 +58,10 @@ export const EXPERIENCES = [
       "Handled frontend implementation, including coding, debugging, and routing.",
       "Collaborated with a team of 10 to deliver high-quality user interfaces."
     ],
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["ReactJS", "HTML", "CSS", "MaterialUI"],
   },
   {
-    year: "2016 - 2017",
+    year: "Jan 2016 - Feb 2017",
     role: "Software Engineer",
     company:"Start Login Software",
     description: [
@@ -71,7 +72,7 @@ export const EXPERIENCES = [
       "Worked on Hospital Management System (HMS), a web-based system to manage the functioning and events of hospitals or medical setups, focusing on in-patient and out-patient management.",
       "Implemented frontend features and ensured a smooth user experience in a team of 8."
     ],
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["HTML", "CSS"],
   },
 ];
 
@@ -82,6 +83,7 @@ export const PROJECTS = [
     description:
     "The Cryptocurrency Tracker is a web application developed using HTML, CSS, and JavaScript that provides real-time data on various cryptocurrencies. Users can search for specific coins and view detailed information such as current prices, market capitalization, and price changes over time. The app features a responsive design, live updates through API integration, and a user-friendly interface, making it easy to stay informed about the latest trends in the cryptocurrency market.",
     technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://ruchi-shrivastava.github.io/module4-assignments/major-project/",
   },
   {
     title: "Language Translator ",
@@ -89,6 +91,7 @@ export const PROJECTS = [
     description:
     "The Language Translator is a small web-based project that allows users to translate text from one language to another using an API (like Google Translate API or LibreTranslate). It provides a simple user interface where users can input text, select the source and target languages, and get the translated text instantly.",
     technologies: ["HTML", "CSS", "Javascript","ReactJs"],
+    link: "https://astounding-language-translator.netlify.app/",
   },
   {
     title: "HotGadgets",
@@ -96,6 +99,7 @@ export const PROJECTS = [
     description:
       "HotGadgets is a dynamic web application developed using HTML, CSS, and JavaScript that showcases the latest tech gadgets on the market. Users can explore a curated selection of products, complete with detailed descriptions, images, and prices. The app features a search functionality and a 'show details' button to enhance user experience, making it easy to discover new and exciting gadgets. Its responsive design ensures a smooth browsing experience across all devices.",
     technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://ruchi-shrivastava.github.io/module4-assignments/phonehunting-app/index.html",
   },
   {
     title: "LeaderBoard",
@@ -103,6 +107,7 @@ export const PROJECTS = [
     description:
       "The Leaderboard project is a web-based application that displays the information of users and their scores. Users can add new entries and update scores",
     technologies: ["HTML", "CSS","Javascript"],
+    link: "https://ruchi-shrivastava.github.io/module4-assignments/leader-board-project/",
   },
   {
     title: "Kings Coffee Clone",
@@ -110,11 +115,11 @@ export const PROJECTS = [
     description:
       "The King’s Coffee Website Clone is a responsive web design project that replicates the UI of a premium coffee shop website using HTML & CSS. The website showcases the brand’s products, menu, and contact section.",
     technologies: ["HTML", "CSS"],
+    link: "https://kings-coffee-project2.netlify.app/",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Pune, India",
+  email: "ruchi.shrivastava15@gmail.com",
 };
