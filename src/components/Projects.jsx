@@ -23,11 +23,26 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/3 flex justify-center"
             >
-              <img 
-                src={project.image} 
-                alt={project.title}
-                className="w-[250px] h-[180px] object-cover rounded"
-              />
+              
+                    {/* <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-[300px] h-[200px] object-contain rounded bg-neutral-800"
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} ease-in-out
+                    /> */}
+
+                    <motion.img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-[300px] h-[200px] object-contain rounded bg-neutral-800 transition-transform duration-300 ease-in-out"
+                        whileHover={{ scale: 1.2 }}
+                        style={{ transformOrigin: "center" }}
+                    />
+
+
+
+
             </motion.div>
 
             {/* Right Column - Title & Description */}

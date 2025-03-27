@@ -1,8 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNodejs } from "react-icons/tb";
 import { TbBrandJavascript } from "react-icons/tb";
 import { TbBrandHtml5 } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
+import {SiPostman,SiGithub } from "react-icons/si";
 import { PiFileCssBold } from "react-icons/pi";
 import { motion } from "framer-motion";
 
@@ -21,7 +20,7 @@ const iconVariants = (duration) => ({
 
 const Technology = () => {
     return(
-        <div className=" pb-24">
+        <div className="border-b border-neutral-900 pb-24">
             <motion.h2
             whileInView = {{opacity : 1, y : 0}}
             initial = {{opacity : 0, y : -100}}
@@ -41,21 +40,29 @@ const Technology = () => {
                 <RiReactjsLine className="text-5xl text-cyan-400" />
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                 variants={iconVariants(2)}
                 initial = "initial"
                 animate = "animate"
                  className="rounded-4xl border-4 border-neutral-800 p-4">
                 < SiMongodb className="text-5xl text-emerald-400" />
-                </motion.div>
+                </motion.div> */}
+                <motion.div
+                    variants={iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-4xl border-4 border-neutral-800 p-4"
+                >
+              <SiPostman className="text-5xl text-orange-500" />
+                 </motion.div>
 
-                <motion.div 
+                {/* <motion.div 
                 variants={iconVariants(6)}
                 initial = "initial"
                 animate = "animate"
                 className="rounded-4xl border-4 border-neutral-800 p-4">
                 <TbBrandNodejs className="text-5xl text-emerald-700" />
-                </motion.div>
+                </motion.div> */}
 
                 <motion.div 
                 variants={iconVariants(4)}
@@ -80,6 +87,14 @@ const Technology = () => {
                 className="rounded-4xl border-4 border-neutral-800 p-4">
                 < PiFileCssBold className="text-5xl text-blue-500" />
                 </motion.div>
+
+                <motion.div
+                variants={iconVariants(3)}
+                initial="initial"
+                animate="animate"
+                className="rounded-4xl border-4 border-neutral-800 p-4" >
+               <SiGithub className="text-5xl text-gray-300" />
+               </motion.div>
 
             </motion.div>
         </div>

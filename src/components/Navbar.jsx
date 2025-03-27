@@ -28,12 +28,12 @@ const Navbar = () => {
     <nav className="w-full shadow-md">
       <div className="flex items-center justify-between px-6 md:px-12 lg:px-20 py-4">
         {/* Logo */}
-        <h1 className="text-xl md:text-2xl lg:text:2xl text-red-500 uppercase">
-          MeetMe
+        <h1 className="text-xl md:text-2xl lg:text:3xl text-white-500 uppercase">
+        About ME
         </h1>
 
         {/* Social Icons (Always Visible) */}
-        <div className="flex items-center gap-4 text-xl">
+        <div className="flex items-center gap-4 text-2xl">
         <a href="https://www.linkedin.com/in/ruchi-shrivastava-49743366/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
       </a>

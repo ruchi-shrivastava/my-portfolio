@@ -1,13 +1,18 @@
 import { ABOUT_TEXT } from "../constants"
-import aboutImg from "../assets/about.jpg"
+import aboutImg from "../assets/aboutMe.jpg"
 import { motion } from "framer-motion";
 const About = () => {
     return(
         // <div className="w-full">
-        <div className=" font-light pb-4 ">
-            <h1 className="my-10 text-center text-4xl">About
+        <div className=" font-light pb-32 ">
+            <motion.h1 
+            whileInView = {{opacity : 1, y : 0}}
+            initial = {{opacity : 0, y : -100}}
+            transition = {{duration : 1.5}}
+
+            className="my-10 pb-10 text-center text-4xl">About
             <span className="text-neutral-500 "> Me</span>
-            </h1>
+            </motion.h1>
              <div className="border-b border-neutral-900  px-6 sm:px-12 lg:px-20"> 
                 <div className="flex flex-wrap justify-center">
                     {/* left section */}
@@ -18,7 +23,7 @@ const About = () => {
                     transition = {{ duration : 0.5}}
                     className="w-full lg:w-1/2  lg:p-8">
                     <div className="flex items-center justify-center">
-                        <img src={aboutImg} className="rounded-2xl w-80 sm:w-52 md:w-80 lg:w-92 mx-auto "></img>
+                        <img src={aboutImg} className="rounded-2xl w-90 sm:w-72 md:w-90 lg:w-95 mx-auto "></img>
                     </div>
                     </motion.div>
 

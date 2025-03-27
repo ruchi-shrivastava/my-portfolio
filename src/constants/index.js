@@ -4,9 +4,9 @@ import project3 from "../assets/projects/Project3.png";
 import project4 from "../assets/projects/Project4.png";
 import project5 from "../assets/projects/Project5.png"
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Versatile Frontend Developer with 3 years of full-time development, specializing in building scalable, responsive, and user-friendly web applications. Proficient in modern frontend technologies, creating reusable components, and optimizing performance for seamless user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated frontend developer with 3 years of experience in building user-friendly and responsive web applications. My expertise lies in HTML, CSS, JavaScript, and React.js, along with proficiency in Postman, GitHub, and REST APIs. I have a strong passion for writing clean, maintainable code and enjoy solving real-world problems through efficient web solutions. I thrive in collaborative environments and constantly seek opportunities to enhance my skills. Beyond coding, I enjoy exploring new technologies and staying updated with industry trends`;
 
 export const EXPERIENCES = [
   {
@@ -86,6 +86,14 @@ export const PROJECTS = [
     link: "https://ruchi-shrivastava.github.io/module4-assignments/major-project/",
   },
   {
+    title: "MyPortFolio",
+    image: project4,
+    description:
+    "MyPortfolio is a modern and responsive personal portfolio website built using React.js and Tailwind CSS, with smooth animations powered by Framer Motion. It showcases my skills, experience, and projects in an interactive and visually appealing way. The website is designed with a minimalist UI, ensuring a seamless user experience across devices.",
+    technologies: ["HTML", "CSS","Javascript","ReactJs","Framer-Motion"],
+    link: "https://my-portfolio-ruchis.vercel.app/",
+  },
+  {
     title: "Language Translator ",
     image: project2,
     description:
@@ -101,14 +109,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript"],
     link: "https://ruchi-shrivastava.github.io/module4-assignments/phonehunting-app/index.html",
   },
-  {
-    title: "LeaderBoard",
-    image: project4,
-    description:
-      "The Leaderboard project is a web-based application that displays the information of users and their scores. Users can add new entries and update scores",
-    technologies: ["HTML", "CSS","Javascript"],
-    link: "https://ruchi-shrivastava.github.io/module4-assignments/leader-board-project/",
-  },
+  
   {
     title: "Kings Coffee Clone",
     image: project5,
