@@ -71,12 +71,13 @@ const Experience = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-4xl text-center"
+        className="my-20 text-4xl text-left"
       >
         Experience
       </motion.h1>
 
       <div className="max-w-5xl w-full mx-auto">
+        
         {EXPERIENCES.map((exp, index) => (
           <div key={index} className="mb-12 flex flex-wrap lg:flex-nowrap justify-center gap-10">
             {/* Left Column - Date */}
@@ -101,7 +102,7 @@ const Experience = () => {
                 <span className="text-sm text-purple-100">{exp.company}</span>
               </h6>
 
-              <ul className="mb-4 text-neutral-400 list-disc pl-5">
+              <ul className="mb-4  text-neutral-400 list-disc pl-5 text-left">
                 {exp.description.map((point, index) => (
                   <li key={index}>{point}</li>
                 ))}

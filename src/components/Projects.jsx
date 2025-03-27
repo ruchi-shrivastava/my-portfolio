@@ -53,7 +53,7 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-2/3 text-center lg:text-left"
             >
               <h6 className="mb-2 text-xl font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-400 text-left" >{project.description}</p>
 
               <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
                 {project.technologies.map((tech, index) => (
