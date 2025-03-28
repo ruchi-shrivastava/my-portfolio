@@ -37,7 +37,7 @@ const Hero = () => {
     </div>
 
     {/* Right Section: Responsive & Centered Image */}
-    <div className="w-full lg:w-1/2 flex justify-center lg:justify-start lg:p-8">
+    <div className="w-full lg:w-1/2 flex lg:justify-start lg:p-8">
       <motion.img initial={{x : 100, opacity : 0}}
       animate={{x : 0,opacity : 1}}
       transition={{duration : 1, delay : 1.2}}

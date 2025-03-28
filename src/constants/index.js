@@ -123,4 +123,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Pune, India",
   email: "ruchi.shrivastava15@gmail.com",
+  linkedIn : "https://www.linkedin.com/in/ruchi-shrivastava-49743366/"
 };
