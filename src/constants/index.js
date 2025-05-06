@@ -24,7 +24,7 @@ export const EXPERIENCES = [
   },
   {
     year: "June 2022 - Jan 2023",
-    role:"Freelance Web Developer & Career Break",
+    role:"Freelance Frontend Developer",
     company: "Self-Employed",
     description: [
       "Took a career break to focus on my newborn while staying engaged in the industry through freelancing.",
