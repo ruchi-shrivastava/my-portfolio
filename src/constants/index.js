@@ -4,9 +4,15 @@ import project3 from "../assets/projects/Project3.png";
 import project4 from "../assets/projects/Project4.png";
 import project5 from "../assets/projects/Project5.png"
 
-export const HERO_CONTENT = `Versatile Frontend Developer with 3 years of full-time development, specializing in building scalable, responsive, and user-friendly web applications. Proficient in modern frontend technologies, creating reusable components, and optimizing performance for seamless user experiences.`;
+export const HERO_CONTENT = `I’m Ruchi Shrivastava, a dedicated frontend developer with over 6 years of experience, including freelancing, internships, and 3 years of full-time professional work.
 
-export const ABOUT_TEXT = `I am a dedicated frontend developer with 3 years of experience in building user-friendly and responsive web applications. My expertise lies in HTML, CSS, JavaScript, and React.js, along with proficiency in Postman, GitHub, and REST APIs. I have a strong passion for writing clean, maintainable code and enjoy solving real-world problems through efficient web solutions. I thrive in collaborative environments and constantly seek opportunities to enhance my skills. Beyond coding, I enjoy exploring new technologies and staying updated with industry trends`;
+I specialize in building responsive and user-friendly websites using React.js, JavaScript, and modern CSS frameworks like Tailwind CSS.
+
+After taking a career break to raise my daughter, I resumed my journey through freelancing and internships, working on real-world web applications while continuously upgrading my skills.
+
+`;
+
+export const ABOUT_TEXT = `I am a dedicated frontend developer with over 6 years of experience, including 3 years of full-time work in building user-friendly and responsive web applications. My expertise lies in HTML, CSS, JavaScript, and React.js, along with proficiency in Postman, GitHub, and REST APIs. I have a strong passion for writing clean, maintainable code and enjoy solving real-world problems through efficient web solutions. I thrive in collaborative environments and constantly seek opportunities to enhance my skills. Beyond coding, I enjoy exploring new technologies and staying updated with industry trends.`;
 
 export const EXPERIENCES = [
   {

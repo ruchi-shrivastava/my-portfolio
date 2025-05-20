@@ -98,7 +98,49 @@
 // export default Navbar;
 
 
+// import React from "react";
+
+// const Navbar = () => {
+//   // Function to scroll to Contact section
+//   const scrollToContact = () => {
+//     const contactSection = document.getElementById("contact");
+//     if (contactSection) {
+//       contactSection.scrollIntoView({ behavior: "smooth" });
+//     }
+//   };
+
+//   return (
+//     <nav className="w-full shadow-md">
+//       <div className="flex flex-col sm:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-4">
+//         {/* Logo */}
+//         <h3 className="text-xl md:text-2xl lg:text-xl text-white-500 uppercase font-semibold text-center sm:text-left">
+//           About Me
+//         </h3>
+
+//         {/* Contact Button */}
+//         <button
+//           className="mt-3 sm:mt-0 px-5 py-2 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg 
+//           hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
+//           onClick={scrollToContact}
+//         >
+//           Contact Me
+//         </button>
+
+       
+
+         
+
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
+
+
+
 import React from "react";
+import { FaArrowDown } from "react-icons/fa"; // Import arrow icon
 
 const Navbar = () => {
   // Function to scroll to Contact section
@@ -117,18 +159,37 @@ const Navbar = () => {
           About Me
         </h3>
 
-        {/* Contact Button */}
-        <button
-          className="mt-3 sm:mt-0 px-5 py-2 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg 
-          hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
-          onClick={scrollToContact}
-        >
-          Contact Me
-        </button>
+        {/* Buttons container */}
+        <div className="flex gap-4 mt-3 sm:mt-0">
+          {/* Resume Button */}
+          <a
+            href="/ruchi_shrivastava_frontend_developer.pdf"
+            download
+            className="px-5 py-2 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg 
+            hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
+          >
+          Download Resume
+           
+          </a>
+
+          {/* Contact Button */}
+          <button
+            className="px-5 py-2 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg 
+            hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
+            onClick={scrollToContact}
+          >
+            Contact Me
+          </button>
+        </div>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
+
+
+
+
+
 

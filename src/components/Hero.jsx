@@ -27,8 +27,9 @@ const Hero = () => {
       </motion.h1>
     
       <motion.span  variants={container(0.5)} initial="hidden" animate="visible"
-       className="mt-1 sm:mt-8 text-2xl sm:text-3xl lg:text-2xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
-        Frontend Developer
+       className="mt-1 sm:mt-8 text-2xl sm:text-3xl lg:text-xl bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent">
+      
+      Frontend Developer | JavaScript • React.js • Tailwind CSS
       </motion.span>
       <motion.p  variants={container(1)} initial="hidden" animate="visible"
        className="my-1 max-w-xl py-6 font-light tracking-tight">

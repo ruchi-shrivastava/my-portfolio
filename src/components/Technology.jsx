@@ -1,7 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandJavascript,TbBrandNodejs } from "react-icons/tb";
 import { TbBrandHtml5 } from "react-icons/tb";
-import {SiPostman,SiGithub } from "react-icons/si";
+import {SiPostman,SiGithub,SiMongodb, } from "react-icons/si";
 import { PiFileCssBold } from "react-icons/pi";
 import { motion } from "framer-motion";
 
@@ -40,13 +40,13 @@ const Technology = () => {
                 <RiReactjsLine className="text-5xl text-cyan-400" />
                 </motion.div>
 
-                {/* <motion.div
+                <motion.div
                 variants={iconVariants(2)}
                 initial = "initial"
                 animate = "animate"
                  className="rounded-4xl border-4 border-neutral-800 p-4">
                 < SiMongodb className="text-5xl text-emerald-400" />
-                </motion.div> */}
+                </motion.div>
                 <motion.div
                     variants={iconVariants(2)}
                     initial="initial"
@@ -56,13 +56,13 @@ const Technology = () => {
               <SiPostman className="text-5xl text-orange-500" />
                  </motion.div>
 
-                {/* <motion.div 
+                <motion.div 
                 variants={iconVariants(6)}
                 initial = "initial"
                 animate = "animate"
                 className="rounded-4xl border-4 border-neutral-800 p-4">
                 <TbBrandNodejs className="text-5xl text-emerald-700" />
-                </motion.div> */}
+                </motion.div>
 
                 <motion.div 
                 variants={iconVariants(4)}
