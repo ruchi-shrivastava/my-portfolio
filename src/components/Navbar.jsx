@@ -163,7 +163,7 @@ const Navbar = () => {
         <div className="flex gap-4 mt-3 sm:mt-0">
           {/* Resume Button */}
           <a
-            href="/ruchi_shrivastava_frontend_developer.pdf"
+            href="/Ruchi_Shrivastava_Frontend_Developer.pdf"
             download
             className="px-5 py-2 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg 
             hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"

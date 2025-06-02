@@ -4,7 +4,7 @@ import project3 from "../assets/projects/Project3.png";
 import project4 from "../assets/projects/Project4.png";
 import project5 from "../assets/projects/Project5.png"
 
-export const HERO_CONTENT = `I’m Ruchi Shrivastava, a dedicated frontend developer with over 6 years of experience, including freelancing, internships, and 3 years of full-time professional work.
+export const HERO_CONTENT = `I’m Ruchi Shrivastava, a dedicated frontend developer with over 6 years of experience, including freelancing, internships, and 4 years of full-time professional work.
 
 I specialize in building responsive and user-friendly websites using React.js, JavaScript, and modern CSS frameworks like Tailwind CSS.
 
@@ -12,11 +12,34 @@ After taking a career break to raise my daughter, I resumed my journey through f
 
 `;
 
-export const ABOUT_TEXT = `I am a dedicated frontend developer with over 6 years of experience, including 3 years of full-time work in building user-friendly and responsive web applications. My expertise lies in HTML, CSS, JavaScript, and React.js, along with proficiency in Postman, GitHub, and REST APIs. I have a strong passion for writing clean, maintainable code and enjoy solving real-world problems through efficient web solutions. I thrive in collaborative environments and constantly seek opportunities to enhance my skills. Beyond coding, I enjoy exploring new technologies and staying updated with industry trends.`;
+export const ABOUT_TEXT = `I am a dedicated frontend developer with over 6 years of experience, including 4 years of full-time work in building user-friendly and responsive web applications. My expertise lies in HTML, CSS, JavaScript, and React.js, along with proficiency in Postman, GitHub, and REST APIs. I have a strong passion for writing clean, maintainable code and enjoy solving real-world problems through efficient web solutions. I thrive in collaborative environments and constantly seek opportunities to enhance my skills. Beyond coding, I enjoy exploring new technologies and staying updated with industry trends.`;
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2024 – Jan 2025",
+  year: "Feb 2024 – May 2025",
+  role: "Frontend Developer",
+  company: "Stockable",
+  description: [
+    "Worked full-time as a frontend developer at Stockable, a stock market startup, collaborating in a 3-member core team.",
+    <>
+      Took complete ownership of the company’s official websites:{" "}
+      <a href="https://stockable.uk" target="_blank" rel="noopener noreferrer" style={{ color: "#c084fc", fontWeight: "light", textDecoration: "underline" }}>https://stockable.uk
+      </a>{" "}
+      and{" "}
+      <a href="https://www.fxpips.net" target="_blank" rel="noopener noreferrer" style={{ color: "#c084fc", fontWeight: "light", textDecoration: "underline" }}>
+        fxpips.net
+      </a>
+      , developing the frontend using React.js, JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS.
+    </>,
+    "Translated business goals into intuitive, responsive UIs aligned with the brand’s identity and target audience.",
+    "Collaborated closely with the backend developer to integrate REST APIs and deliver real-time data to users. Optimized site performance, mobile responsiveness, and cross-browser compatibility for enhanced UX. Contributed to planning, design improvements, and ongoing iterations based on client and team feedback.",
+  ],
+  technologies: ["Javascript", "React.js", "HTML", "CSS"],
+},
+
+
+  {
+    year: "Dec 2022 – Jan 2024",
     role: "Apprenticeship: Frontend Development",
     company: "Geekster",
     description: [
@@ -29,7 +52,7 @@ export const EXPERIENCES = [
     
   },
   {
-    year: "June 2022 - Jan 2023",
+    year: "Jan 2022 - Dec 2022",
     role:"Freelance Frontend Developer",
     company: "Self-Employed",
     description: [

@@ -15,7 +15,7 @@ const Hero = () => {
   return (
    
     <div className="border-b border-neutral-900 pb-30 lg:mb-36 px-6 sm:px-12 lg:px-20 pt-32">
-  <div className="flex flex-wrap items-center">
+    <div className="flex flex-wrap items-center">
     
     {/* Left Section: Hero Content */}
     <div className="w-full lg:w-1/2 flex flex-col items-start lg:items-start text-start lg:text-left">
