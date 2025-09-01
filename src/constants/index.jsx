@@ -16,7 +16,7 @@ export const ABOUT_TEXT = `I am a dedicated frontend developer with over 6 years
 
 export const EXPERIENCES = [
   {
-  year: "Feb 2024 – May 2025",
+  year: "Feb 2024 – August 2025",
   role: "Frontend Developer",
   company: "Stockable",
   description: [
@@ -51,18 +51,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "HTML", "CSS"],
     
   },
-  {
-    year: "Jan 2022 - Dec 2022",
-    role:"Freelance Frontend Developer",
-    company: "Self-Employed",
-    description: [
-      "Took a career break to focus on my newborn while staying engaged in the industry through freelancing.",
-      "Developed custom web applications for small businesses and startups.",
-      "Enhanced expertise in React.js, JavaScript, and modern web technologies while managing client requirements and deadlines.",
-      "Worked independently with clients to design and develop user-friendly websites.",
-    ],
-    technologies: ["HTML", "CSS", "Javascript"],
-  },
+ 
   {
     year: "July 2019 - June 2020",
     role: "Frontend Developer",
