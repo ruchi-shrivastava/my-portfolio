@@ -141,6 +141,7 @@
 
 import React from "react";
 import { FaArrowDown } from "react-icons/fa"; // Import arrow icon
+import resume from "../assets/Ruchi_Shrivastava_FrontendDeveloper_CV.pdf"
 
 const Navbar = () => {
   // Function to scroll to Contact section
@@ -163,7 +164,7 @@ const Navbar = () => {
         <div className="flex gap-4 mt-3 sm:mt-0">
           {/* Resume Button */}
           <a
-            href="/Ruchi_Shrivastava_FrontendDeveloper.pdf"
+            href={resume}
             download
             className="block w-full sm:w-auto text-center px-5 py-2 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg 
             hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
