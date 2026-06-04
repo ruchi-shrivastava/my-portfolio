@@ -74,6 +74,20 @@ const Projects = () => {
                                 >
                                     View Project
                                 </a>
+                               
+                                {/* <div className="mt-4"> */}
+                               {project.title === "MyPortFolio" &&(
+                                  <a 
+                                    href={project.github} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="inline-block  bg-neutral-900 hover:bg-purple-900 text-purple-400 font-semibold py-2 px-4 rounded transition"
+                                >
+                                   Github
+                                </a>
+                               )}
+                                
+                            {/* </div> */}
                             </div>
               
             </motion.div>

@@ -95,14 +95,7 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Crypto Currency Tracker",
-    image: project1,
-    description:
-    "The Cryptocurrency Tracker is a web application developed using HTML, CSS, and JavaScript that provides real-time data on various cryptocurrencies. Users can search for specific coins and view detailed information such as current prices, market capitalization, and price changes over time. The app features a responsive design, live updates through API integration, and a user-friendly interface, making it easy to stay informed about the latest trends in the cryptocurrency market.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    link: "https://ruchi-shrivastava.github.io/module4-assignments/major-project/",
-  },
+  
   {
     title: "MyPortFolio",
     image: project4,
@@ -110,6 +103,15 @@ export const PROJECTS = [
     "MyPortfolio is a modern and responsive personal portfolio website built using React.js and Tailwind CSS, with smooth animations powered by Framer Motion. It showcases my skills, experience, and projects in an interactive and visually appealing way. The website is designed with a minimalist UI, ensuring a seamless user experience across devices.",
     technologies: ["HTML", "CSS","Javascript","ReactJs","Framer-Motion"],
     link: "https://my-portfolio-ruchis.vercel.app/",
+    github: "https://github.com/ruchi-shrivastava/my-portfolio"
+  },
+  {
+    title: "Crypto Currency Tracker",
+    image: project1,
+    description:
+    "The Cryptocurrency Tracker is a web application developed using HTML, CSS, and JavaScript that provides real-time data on various cryptocurrencies. Users can search for specific coins and view detailed information such as current prices, market capitalization, and price changes over time. The app features a responsive design, live updates through API integration, and a user-friendly interface, making it easy to stay informed about the latest trends in the cryptocurrency market.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://ruchi-shrivastava.github.io/module4-assignments/major-project/",
   },
   {
     title: "Language Translator ",
