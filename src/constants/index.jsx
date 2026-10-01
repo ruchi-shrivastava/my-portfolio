@@ -2,7 +2,8 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/Project2.png";
 import project3 from "../assets/projects/Project3.png";
 import project4 from "../assets/projects/Project4.png";
-import project5 from "../assets/projects/Project5.png"
+import project5 from "../assets/projects/Project5.png";
+import project7 from "../assets/projects/Project7.png";
 
 export const HERO_CONTENT = `I’m Ruchi Shrivastava, a dedicated frontend developer with over 6 years of experience, including freelancing, internships, and 4 years of full-time professional work.
 
@@ -15,6 +16,47 @@ After taking a career break to raise my daughter, I resumed my journey through f
 export const ABOUT_TEXT = `I am a dedicated frontend developer with over 6 years of experience, including 4 years of full-time work in building user-friendly and responsive web applications. My expertise lies in HTML, CSS, JavaScript, and React.js, along with proficiency in Postman, GitHub, and REST APIs. I have a strong passion for writing clean, maintainable code and enjoy solving real-world problems through efficient web solutions. I thrive in collaborative environments and constantly seek opportunities to enhance my skills. Beyond coding, I enjoy exploring new technologies and staying updated with industry trends.`;
 
 export const EXPERIENCES = [
+
+
+{
+  year:"July 2026 – Sep 2026",
+  role: "Freelance Web Developer",
+  company: "V Connect Global",
+  description: [
+    <>
+      Designed and developed a responsive business website for V Connect Global using{" "}
+      <strong>WordPress</strong> and <strong>Elementor</strong>.
+    </>,
+    "Created and customized website pages, product categories, layouts, navigation, and responsive sections to provide a clean and user-friendly experience.",
+    "Worked on UI design, content organization, and page structure based on business requirements.",
+    "Ensured the website was responsive and optimized for different screen sizes and devices.",
+    "Performed website debugging, testing, and maintenance to identify and resolve UI, layout, and responsiveness issues.",
+    "Worked on ongoing website improvements and updates to enhance the overall user experience.",
+    <>
+      <a
+        href="https://vconnectglobal.co.in/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          color: "#c084fc",
+          fontWeight: "light",
+          textDecoration: "underline",
+        }}
+      >
+        View Live Website
+      </a>
+    </>,
+  ],
+  technologies: [
+    "WordPress",
+    "Elementor",
+    "HTML5",
+    "CSS3",
+    "Responsive Web Design",
+  ],
+},
+
+
   {
   year: "Feb 2024 – August 2025",
   role: "Frontend Developer",
@@ -95,6 +137,16 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+
+  {
+  title: "V Connect Global",
+  image: project7,
+  description:
+    "V Connect Global is a modern and responsive business website developed using WordPress and Elementor. I worked on the website design, page layouts, product categories, responsive sections, and overall user experience. I also worked on website debugging, testing, maintenance, and resolving UI, layout, and responsiveness issues.",
+  technologies: ["WordPress", "Elementor", "HTML5", "CSS3", "Responsive Design"],
+  link: "https://vconnectglobal.co.in/",
+  github: ""
+},
   
   {
     title: "MyPortFolio",
