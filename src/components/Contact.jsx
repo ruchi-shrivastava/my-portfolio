@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
 
         {/* Phone */}
-        <div>
+        {/* <div>
           <motion.a
             whileHover={{ scale: 1.05 }}
             href="tel:9975078579"
@@ -88,7 +88,7 @@ const Contact = () => {
             <FaPhone className="text-purple-600 text-xl" />
             9975078579
           </motion.a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
